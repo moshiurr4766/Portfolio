@@ -37,12 +37,26 @@
   <!-- HERO -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <img src="assets/profile.png" alt="Md Moshiur Rahman" class="hero-img" />
-      <h2>Hi, I'm <span>Moshiur</span> 👋</h2>
-      <p>Flutter Developer | CSE Student | Passionate Coder</p>
+      <div class="hero-text">
+        <h1 class="hero-greeting">Hello World! 👋</h1>
+        <h2 class="hero-name">I'm <span class="highlight">Moshiur Rahman</span></h2>
+        <div class="hero-subtitle">
+          <span class="typing-text">Flutter Developer</span>
+          <span class="separator">|</span>
+          <span>CSE Student</span>
+          <span class="separator">|</span>
+          <span>Problem Solver</span>
+        </div>
+        <div class="hero-description">
+          Crafting beautiful & performant mobile experiences
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/profile.png" alt="Md Moshiur Rahman" class="hero-img" />
+      </div>
       <div class="hero-buttons">
-        <a href="#contact" class="btn">Hire Me</a>
-        <a href="#projects" class="btn btn-outline">View Projects</a>
+        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+        <a href="#projects" class="btn btn-secondary">View My Work</a>
       </div>
     </div>
   </section>
@@ -95,8 +109,8 @@
       <div class="skill-category">
         <h3>Programming Languages</h3>
         <div class="skills-grid">
-          <div class="skill"><span>Python</span><div class="bar"><div style="width: 80%"></div></div></div>
-          <div class="skill"><span>C / C++</span><div class="bar"><div style="width: 85%"></div></div></div>
+          <div class="skill"><span>Python</span><div class="bar"><div style="width: 70%"></div></div></div>
+          <div class="skill"><span>C</span><div class="bar"><div style="width: 70%"></div></div></div>
           <div class="skill"><span>Java</span><div class="bar"><div style="width: 70%"></div></div></div>
         </div>
       </div>
@@ -104,10 +118,10 @@
       <div class="skill-category">
         <h3>Tools & Technologies</h3>
         <div class="skills-grid">
-          <div class="skill"><span>Git & GitHub</span><div class="bar"><div style="width: 85%"></div></div></div>
+          <div class="skill"><span>Git & GitHub</span><div class="bar"><div style="width: 75%"></div></div></div>
           <div class="skill"><span>VS Code</span><div class="bar"><div style="width: 90%"></div></div></div>
-          <div class="skill"><span>Machine Learning</span><div class="bar"><div style="width: 55%"></div></div></div>
-          <div class="skill"><span>Android Studio</span><div class="bar"><div style="width: 80%"></div></div></div>
+          <div class="skill"><span>Machine Learning</span><div class="bar"><div style="width: 60%"></div></div></div>
+          <div class="skill"><span>Android Studio</span><div class="bar"><div style="width: 70%"></div></div></div>
         </div>
       </div>
     </div>
@@ -118,68 +132,74 @@
     <h2 class="section-title">Projects</h2>
     <div class="project-grid">
       <div class="project-card">
-        <img src="https://cdn.dribbble.com/userupload/3296149/file/original-59f98ffb5ce23df9ed3b7223097c3d7c.png" alt="Todo App" />
+        
         <div class="project-info">
-          <h3>Task Master Pro</h3>
-          <p>A comprehensive task management app built with Flutter & Firebase.</p>
+          <h3>ShohozKaz</h3>
+          <p>A Localized Job Marketplace for Short-Term and Daily-Wage Opportunities</p>
           <ul class="project-features">
-            <li>Real-time data synchronization</li>
-            <li>User authentication & task sharing</li>
-            <li>Custom notifications & reminders</li>
-            <li>Offline support with local storage</li>
+            <li>Real-time job matching and notifications</li>
+            <li>Location-based job search and filtering</li>
+            <li>Secure payment integration</li>
+            <li>User rating and review system</li>
+            <li>Multilingual support (Bangla & English)</li>
           </ul>
           <div class="project-tech">
             <span class="tech-tag">Flutter</span>
             <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Google Maps</span>
+            <span class="tech-tag">GetX</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/moshiurr4766/ShohozKaz" class="project-link">🔗 View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        
+        <div class="project-info">
+          <h3>Full Stack Dynamic Portfolio</h3>
+          <p>A comprehensive portfolio website with dynamic content management</p>
+          <ul class="project-features">
+            <li>Custom CMS for content updates</li>
+            <li>Responsive design across devices</li>
+            <li>Project showcase with filtering</li>
+            <li>Blog section with markdown support</li>
+            <li>Contact form with email integration</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">Express</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/moshiurr4766/Full_Stack_Dynamic_Portfolio_Moshiur_4766" class="project-link">� View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        
+
+        <div class="project-info">
+          <h3>DIU Travel Mate</h3>
+          <p>University Transport Management and Tracking Application</p>
+          <ul class="project-features">
+            <li>Real-time bus tracking</li>
+            <li>Schedule management system</li>
+            <li>Route optimization</li>
+            <li>Student verification system</li>
+            <li>Push notifications for updates</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Google Maps API</span>
             <span class="tech-tag">Provider</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/moshiurr4766/task-master-pro" class="project-link">🔗 View Code</a>
-            <a href="https://play.google.com/store/apps/details?id=com.moshiur.taskmaster" class="project-link">📱 Download</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="https://cdn.dribbble.com/users/1743790/screenshots/15427064/media/fd69a8d8995af9e985e1a04e4d0a8a21.png" alt="E-commerce App" />
-        <div class="project-info">
-          <h3>ShopEase</h3>
-          <p>A feature-rich e-commerce app with modern UI and seamless UX.</p>
-          <ul class="project-features">
-            <li>Product categorization & search</li>
-            <li>Cart & wishlist management</li>
-            <li>Payment gateway integration</li>
-            <li>Order tracking system</li>
-          </ul>
-          <div class="project-tech">
-            <span class="tech-tag">Flutter</span>
-            <span class="tech-tag">GetX</span>
-            <span class="tech-tag">Stripe</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/moshiurr4766/shopease" class="project-link">🔗 View Code</a>
-            <a href="https://play.google.com/store/apps/details?id=com.moshiur.shopease" class="project-link">📱 Download</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="https://cdn.dribbble.com/users/1686131/screenshots/15498608/media/14b707d8a0bbdcd422fcd0b96b7bbf0c.png" alt="Weather App" />
-        <div class="project-info">
-          <h3>WeatherNow</h3>
-          <p>Beautiful weather app with detailed forecasts and interactive maps.</p>
-          <ul class="project-features">
-            <li>7-day weather forecast</li>
-            <li>Interactive weather maps</li>
-            <li>Location-based updates</li>
-            <li>Weather alerts & notifications</li>
-          </ul>
-          <div class="project-tech">
-            <span class="tech-tag">Flutter</span>
-            <span class="tech-tag">OpenWeather API</span>
-            <span class="tech-tag">Bloc</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/moshiurr4766/weathernow" class="project-link">🔗 View Code</a>
-            <a href="https://play.google.com/store/apps/details?id=com.moshiur.weathernow" class="project-link">📱 Download</a>
+            <a href="https://github.com/moshiurr4766/Diu_Travel_Mate" class="project-link">🔗 View Code</a>
           </div>
         </div>
       </div>
@@ -190,32 +210,21 @@
   <section id="achievements" class="section">
     <h2 class="section-title">Achievements & Certifications</h2>
     <div class="achievements-grid">
-      <div class="achievement-card">
-        <div class="achievement-icon">🏆</div>
-        <h3>Flutter Development Bootcamp</h3>
-        <p>Completed intensive training in Flutter app development</p>
-        <span class="achievement-date">August 2024</span>
-      </div>
-      
-      <div class="achievement-card">
-        <div class="achievement-icon">🎯</div>
-        <h3>Hackathon Winner</h3>
-        <p>First place in DIU Mobile App Innovation Challenge</p>
-        <span class="achievement-date">March 2024</span>
-      </div>
-
-      <div class="achievement-card">
-        <div class="achievement-icon">📜</div>
-        <h3>Python for Data Science</h3>
-        <p>Certification from Coursera</p>
-        <span class="achievement-date">January 2024</span>
-      </div>
-
-      <div class="achievement-card">
-        <div class="achievement-icon">💡</div>
-        <h3>Problem Solving</h3>
-        <p>Solved 500+ problems on various coding platforms</p>
-        <span class="achievement-date">Ongoing</span>
+      <div class="achievement-card featured">
+        <img src="assets/ach.jpg" alt="Dean's List Award" class="achievement-img full-width">
+        <div class="achievement-content">
+          <div class="achievement-header">
+            <div class="achievement-icon">🏆</div>
+            <h3>Dean's List Award</h3>
+          </div>
+          <div class="achievement-details">
+            <p><strong>Institution:</strong> Daffodil International University</p>
+            <p><strong>Faculty:</strong> Faculty of Science and Information Technology (FSIT)</p>
+            <p><strong>Student ID:</strong> 221-15-4766</p>
+            <p><strong>Recognition:</strong> Outstanding Academic Excellence</p>
+          </div>
+          <span class="achievement-date">Fall 2023</span>
+        </div>
       </div>
     </div>
   </section>
@@ -223,42 +232,35 @@
   <!-- CONTACT -->
   <section id="contact" class="section dark">
     <h2 class="section-title">Contact Me</h2>
-    <div class="contact-grid">
+    <div class="contact-container">
       <div class="contact-info">
         <div class="contact-details">
-          <p>📧 moshiurr1505@gmail.com</p>
-          <p>📞 +880 1307266218</p>
-          <p>📍 Dhaka, Bangladesh</p>
+          <a href="mailto:moshiurr1505@gmail.com" class="contact-item">
+            <span class="contact-icon">📧</span>
+            <span>rahman15-4766@diu.edu.bd</span>
+          </a>
+          <a href="tel:+8801307266218" class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span>+880 1307266218</span>
+          </a>
+          <a href="https://maps.google.com/?q=Dhaka,Bangladesh" target="_blank" class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>Dhaka, Bangladesh</span>
+          </a>
         </div>
         
         <div class="social-links">
           <a href="https://github.com/moshiurr4766" target="_blank" class="social-link">
-            <img src="assets/github.svg" alt="GitHub" /> GitHub
+             GitHub
           </a>
-          <a href="https://linkedin.com/in/moshiurr4766" target="_blank" class="social-link">
-            <img src="assets/linkedin.svg" alt="LinkedIn" /> LinkedIn
+          <a href="#" target="_blank" class="social-link">
+             LinkedIn
           </a>
-          <a href="https://twitter.com/moshiurr4766" target="_blank" class="social-link">
-            <img src="assets/twitter.svg" alt="Twitter" /> Twitter
+          <a href="#" target="_blank" class="social-link">
+             Twitter
           </a>
         </div>
       </div>
-
-      <form id="contact-form" class="contact-form">
-        <div class="form-group">
-          <input type="text" id="name" name="name" placeholder="Your Name" required>
-        </div>
-        <div class="form-group">
-          <input type="email" id="email" name="email" placeholder="Your Email" required>
-        </div>
-        <div class="form-group">
-          <input type="text" id="subject" name="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group">
-          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
     </div>
   </section>
 
